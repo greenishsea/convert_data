@@ -9,6 +9,7 @@ OUTFILE_PATH = 'output/data.json'
 
 if __name__ == '__main__':
     convert_data(
-        infile_elv_path=INDATA_PATH + "/" + FILENAME_C_EXPECTANCY,
+        is_infile_json_lines=True,
+        infile_elv_path=INDATA_PATH + "/" + FILENAME_C_ELEVATION,
         infile_exp_path=INDATA_PATH + "/" + FILENAME_C_EXPECTANCY,
         outfile_path=OUTFILE_PATH)

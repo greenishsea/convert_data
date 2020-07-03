@@ -2,8 +2,8 @@ name: Convert Data
 
 on:
   push:
-  # schedule:
-  #   - cron: "15 0,2,4,8,12 * * *"
+  schedule:
+    - cron: "15 0,2,4,8,12 * * *"
 
 jobs:
   main_job:
